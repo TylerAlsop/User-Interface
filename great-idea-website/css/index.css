@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -64,3 +64,23 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+a {
+	text-decoration: none;
+	color: lighgray;
+	padding: 70px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+.main-body {
+	background-color: gray;
+	border-top: solid gray 2px;
+	border-bottom: solid gray 2px;
+}
+
+features {
+	
+}
