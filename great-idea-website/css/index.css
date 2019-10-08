@@ -64,6 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	display: inline-block;
+}
+nav {
+	padding-top: 20px;
+
+}
 
 a {
 	text-decoration: none;
@@ -71,16 +78,83 @@ a {
 	padding: 70px;
 }
 
+header {
+	padding: 50px 100px;
+}
+
+.name-and-button {
+	padding: 0px 150px;
+	text-align: center;
+}
+
+h1 {
+	width: 100px;
+	padding-bottom: 30px;
+}
+
+.get-started-button {
+	border: solid 1px;
+	width: fit-content;
+	margin-left: 50 px;
+	text-align: center;
+}
+
 h1 {
 	font-size: 80px;
 }
 
 .main-body {
-	background-color: gray;
 	border-top: solid gray 2px;
 	border-bottom: solid gray 2px;
 }
 
-features {
+.features-about {
+	padding: 20px 50px;
+}
+
+.features {
+	width: 650px;
+	/* padding: 50px 50px; */
+}
+
+.about {
+	width: 650px;
+	padding: 50px 50px;
+}
+
+.middle-img {
+	padding: 0px 200px;
+}
+
+.services {
+	width: 450px;
+	padding: 50px 100px;
+}
+
+.product {
+	width: 450px;
+	padding: 50px 100px;
+}
+
+.vision {
+	width: 450px;
+	padding: 50px 100px;
+}
+
+footer {
 	
 }
+
+.copyright {
+	text-align: center;
+}
+
+button {
+	border: solid 2px;
+}
+
+/* .bottom-content .bp {
+	display: inline-block;
+	float: 30%;
+	width: 12%;
+	padding: 1%;  */
